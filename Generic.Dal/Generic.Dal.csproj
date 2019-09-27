@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentNHibernate" Version="2.1.2" />
+      <PackageReference Include="NHibernate" Version="5.2.6" />
+      <PackageReference Include="Unity.Container" Version="5.11.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Generic.Infrastruct\Generic.Infrastruct.csproj" />
+      <ProjectReference Include="..\Generic.Logger\Generic.Logger.csproj" />
+      <ProjectReference Include="..\Generic.Model\Generic.Model.csproj" />
+    </ItemGroup>
+
+</Project>
